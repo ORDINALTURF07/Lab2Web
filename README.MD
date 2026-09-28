@@ -392,8 +392,7 @@ Proyek mini ini menggabungkan tabel data mahasiswa, navigasi, form biodata, pili
 
 1. Apa fungsi <table>, <tr>, <th>, dan <td>?
 
-**Jawaban:**
-
+Jawaban:
 <table> berfungsi untuk membuat struktur tabel pada halaman HTML.
 <tr> (Table Row) berfungsi untuk membuat baris pada tabel.
 <th> (Table Header) berfungsi untuk membuat sel judul atau kepala kolom tabel.
@@ -406,7 +405,6 @@ Contohnya, pada tabel data mahasiswa, elemen <table> digunakan sebagai wadah tab
 **Jawaban:**
 
 Perbedaan <th> dan <td> terletak pada fungsi penggunaannya. Elemen <th> digunakan untuk menampilkan judul atau kepala kolom tabel, sedangkan <td> digunakan untuk menampilkan isi atau data pada tabel.
-
 Secara default, teks dalam <th> biasanya ditampilkan tebal dan rata tengah oleh browser. Sementara itu, teks dalam <td> biasanya ditampilkan dengan format normal dan rata kiri.
 
 3. Apa fungsi atribut colspan pada tabel HTML?
@@ -450,7 +448,6 @@ Contohnya, jika <label for="nama"> dihubungkan dengan <input id="nama">, penggun
 Elemen <textarea> digunakan untuk memasukkan teks yang panjang dan dapat terdiri dari beberapa baris, seperti alamat, deskripsi, atau komentar.
 
 Sementara itu, <input type="text"> digunakan untuk memasukkan teks dalam satu baris, seperti nama, kota, atau data singkat lainnya.
-
 Jadi, <textarea> lebih sesuai untuk teks panjang, sedangkan <input type="text"> lebih sesuai untuk teks singkat.
 
 8. Apa fungsi semantic HTML seperti <header>, <nav>, <main>, <section>, <article>, <aside>, dan <footer>?
