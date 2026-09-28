@@ -390,6 +390,112 @@ Proyek mini ini menggabungkan tabel data mahasiswa, navigasi, form biodata, pili
 
 ---
 
+1. Apa fungsi <table>, <tr>, <th>, dan <td>?
+
+**Jawaban:**
+
+<table> berfungsi untuk membuat struktur tabel pada halaman HTML.
+<tr> (Table Row) berfungsi untuk membuat baris pada tabel.
+<th> (Table Header) berfungsi untuk membuat sel judul atau kepala kolom tabel.
+<td> (Table Data) berfungsi untuk membuat sel yang berisi data pada tabel.
+
+Contohnya, pada tabel data mahasiswa, elemen <table> digunakan sebagai wadah tabel, <tr> untuk membuat baris, <th> untuk judul kolom, dan <td> untuk menampilkan data mahasiswa.
+
+2. Apa perbedaan <th> dan <td>?
+
+**Jawaban:**
+
+Perbedaan <th> dan <td> terletak pada fungsi penggunaannya. Elemen <th> digunakan untuk menampilkan judul atau kepala kolom tabel, sedangkan <td> digunakan untuk menampilkan isi atau data pada tabel.
+
+Secara default, teks dalam <th> biasanya ditampilkan tebal dan rata tengah oleh browser. Sementara itu, teks dalam <td> biasanya ditampilkan dengan format normal dan rata kiri.
+
+3. Apa fungsi atribut colspan pada tabel HTML?
+
+**Jawaban:**
+
+Atribut colspan berfungsi untuk menggabungkan dua atau lebih kolom menjadi satu sel secara horizontal pada tabel HTML.
+
+Contohnya, atribut colspan="2" digunakan untuk menggabungkan dua kolom menjadi satu sel. Atribut ini dapat digunakan untuk membuat bagian keterangan atau rata-rata pada tabel agar terlihat lebih rapi.
+
+4. Apa fungsi elemen <form> dalam HTML?
+
+**Jawaban:**
+
+Elemen <form> berfungsi untuk membuat formulir yang digunakan untuk menerima dan mengumpulkan input dari pengguna. Form dapat berisi berbagai jenis input, seperti nama, email, password, tanggal lahir, pilihan, dan alamat.
+
+Data yang dimasukkan dapat dikirim menggunakan tombol submit untuk diproses lebih lanjut. Contohnya, form registrasi mahasiswa digunakan untuk memasukkan data mahasiswa, seperti nama lengkap, email, password, dan tanggal lahir.
+
+5. Apa perbedaan radio button dan checkbox?
+
+**Jawaban:**
+
+Radio button digunakan untuk memilih satu pilihan dari beberapa pilihan dalam kelompok yang sama. Contohnya, memilih satu jenis kelamin.
+
+Sementara itu, checkbox digunakan untuk memilih satu atau beberapa pilihan sekaligus. Contohnya, memilih beberapa keahlian seperti HTML, CSS, dan JavaScript.
+
+Dengan demikian, radio button digunakan ketika hanya satu pilihan yang diperbolehkan, sedangkan checkbox digunakan ketika pengguna boleh memilih lebih dari satu pilihan.
+
+6. Mengapa elemen <label> sebaiknya dihubungkan dengan id input menggunakan atribut for?
+
+**Jawaban:**
+
+Elemen <label> sebaiknya dihubungkan dengan id input menggunakan atribut for agar keterangan input terhubung dengan elemen yang sesuai.
+
+Contohnya, jika <label for="nama"> dihubungkan dengan <input id="nama">, pengguna dapat mengeklik tulisan label untuk memfokuskan input tersebut. Hubungan ini juga membantu teknologi pembaca layar mengenali keterangan dari input, sehingga formulir lebih mudah diakses.
+
+7. Apa perbedaan <textarea> dengan <input type="text">?
+
+**Jawaban:**
+
+Elemen <textarea> digunakan untuk memasukkan teks yang panjang dan dapat terdiri dari beberapa baris, seperti alamat, deskripsi, atau komentar.
+
+Sementara itu, <input type="text"> digunakan untuk memasukkan teks dalam satu baris, seperti nama, kota, atau data singkat lainnya.
+
+Jadi, <textarea> lebih sesuai untuk teks panjang, sedangkan <input type="text"> lebih sesuai untuk teks singkat.
+
+8. Apa fungsi semantic HTML seperti <header>, <nav>, <main>, <section>, <article>, <aside>, dan <footer>?
+
+**Jawaban:**
+
+Semantic HTML berfungsi untuk menyusun struktur halaman web menggunakan elemen yang memiliki makna dan tujuan yang jelas. Berikut fungsi masing-masing elemen:
+<header> Menampilkan bagian kepala halaman atau bagian tertentu, seperti judul dan pengantar.
+<nav> Menampung tautan navigasi untuk berpindah ke halaman atau bagian lain.
+<main> Menampung konten utama halaman web.
+<section> Mengelompokkan konten yang memiliki tema atau pembahasan yang sama.
+<article> Menampung konten mandiri, seperti artikel atau berita.
+<aside> Menampilkan informasi tambahan yang berkaitan dengan konten utama.
+<footer> Menampilkan bagian penutup halaman, seperti informasi hak cipta.
+
+Penggunaan semantic HTML membuat struktur kode lebih terorganisasi, mudah dibaca, dan membantu browser serta teknologi bantu memahami bagian-bagian halaman web.
+
+9. Apa fungsi atribut required, min, max, dan minlength?
+
+**Jawaban:**
+
+Atribut-atribut tersebut digunakan untuk melakukan validasi dasar pada input HTML.
+
+required berfungsi untuk mewajibkan pengguna mengisi suatu input sebelum form dapat dikirim.
+
+min berfungsi untuk menentukan nilai minimum yang diperbolehkan pada input yang mendukung batas nilai, seperti angka dan tanggal.
+
+max berfungsi untuk menentukan nilai maksimum yang diperbolehkan pada input yang mendukung batas nilai.
+
+minlength berfungsi untuk menentukan jumlah karakter minimum yang harus dimasukkan pada input teks.
+
+Contohnya, min="17" dan max="60" pada input umur menetapkan rentang umur 17 sampai 60. Sementara itu, minlength="3" mengharuskan teks memiliki minimal tiga karakter.
+
+Atribut tersebut membantu mengurangi kesalahan pengisian data sebelum formulir dikirim.
+
+10. Apa perbedaan elemen <audio> dan <video>?
+
+**Jawaban:**
+
+Elemen <audio> digunakan untuk menampilkan dan memutar berkas audio, seperti musik atau rekaman suara. Sementara itu, elemen <video> digunakan untuk menampilkan dan memutar berkas video yang umumnya terdiri dari gambar bergerak dan dapat disertai suara.
+
+Keduanya dapat menggunakan atribut controls untuk menampilkan kontrol pemutaran, seperti tombol play, pause, dan pengaturan volume. Elemen <video> juga dapat menggunakan atribut width untuk mengatur lebar tampilan video.
+
+Jadi, <audio> digunakan untuk media suara, sedangkan <video> digunakan untuk media gambar bergerak yang dapat disertai suara.
+
 ## Kesimpulan
 
 Berdasarkan praktikum HTML Lanjutan, dapat disimpulkan bahwa HTML dapat digunakan untuk membuat halaman web yang memiliki struktur dan konten yang lebih lengkap. Melalui praktikum ini, mahasiswa mempelajari cara membuat tabel, formulir, radio button, checkbox, select, textarea, semantic HTML, serta menambahkan elemen multimedia.
